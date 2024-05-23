@@ -1,0 +1,19 @@
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px 170px;
+  padding-bottom: 10px;
+}
+.footer-section img {
+  width: 100px;
+}
+
+.left {
+  flex-basis: 400px;
+}
+
+.footer-section p {
+  font-size: 14px;
+  opacity: 0.8;
+}

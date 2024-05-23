@@ -28,7 +28,7 @@ const Contact = () => {
             </div>
             <div className="contact-detail">
               <img src={locationPic} alt="" />
-              <p>aBahir Dar, Ethiopia</p>
+              <p>Bahir Dar, Ethiopia</p>
             </div>
           </div>
         </div>
