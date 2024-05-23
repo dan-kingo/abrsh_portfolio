@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 120px;
+}
+
+body {
+  font-family: Poppins;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+}
+.container img {
+  width: 100px;
+}
+.contact-me {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 26px;
+  background: linear-gradient(67deg, #cd850f, #e4092b);
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 36px;
+
+  transition: 0.7s;
+}
+.contact-me:hover {
+  transform: scale(1.05);
+}
