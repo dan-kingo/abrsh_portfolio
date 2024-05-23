@@ -1,0 +1,93 @@
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 170px;
+
+  flex-direction: column;
+}
+.about-section h1 {
+  margin-bottom: 2rem;
+  background: url("../../assets/angry-underline.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.abouts {
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.abouts img {
+  height: 350px;
+}
+.about-para .p1,
+.about-para .p2 {
+  font-size: 14px;
+  opacity: 0.8;
+  padding-bottom: 1rem;
+  text-align: justify;
+}
+.about-para .p2 {
+  margin-bottom: 36px;
+}
+.about-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-skill {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.about-skill:hover {
+  transform: scale(1.05);
+}
+.about-skill p {
+  min-width: 140px;
+}
+
+.about-skill hr {
+  outline: none;
+  border: 0;
+  height: 10px;
+  background: linear-gradient(67deg, #cd850f, #e4092b);
+  border-radius: 10px;
+}
+
+.achievements {
+  margin: 60px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.each-achieve {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.5s;
+}
+.each-achieve:hover {
+  transform: scale(1.05);
+}
+.each-achieve h3 {
+  font-size: 2.3rem;
+  background: linear-gradient(67deg, #cd850f, #e4092b);
+  background-clip: text;
+  color: transparent;
+  cursor: pointer;
+}
+
+.each-achieve p {
+  text-transform: uppercase;
+  opacity: 0.9;
+  cursor: pointer;
+}
