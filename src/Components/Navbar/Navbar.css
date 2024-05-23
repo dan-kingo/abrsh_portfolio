@@ -43,3 +43,50 @@ body {
   text-decoration: none;
   color: #fff;
 }
+
+.mobile-close,
+.mobile-open {
+  display: none;
+}
+@media (max-width: 768px) {
+  .container {
+    margin: 16px 30px;
+  }
+  .contact-me {
+    display: none;
+  }
+  .mobile-open {
+    position: fixed;
+    display: block;
+    right: 30px;
+    font-size: 2rem;
+  }
+  .mobile-close {
+    position: relative;
+    display: block;
+    top: 30px;
+    left: 290px;
+    font-size: 3rem;
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    width: 350px;
+    height: 100%;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    background-color: #251416;
+    z-index: 2;
+    transition: right 0.5s;
+    right: -350px;
+  }
+
+  .nav-menu li {
+    font-size: 30px;
+    padding-left: 100px;
+    flex-direction: row;
+    gap: 20px;
+  }
+}

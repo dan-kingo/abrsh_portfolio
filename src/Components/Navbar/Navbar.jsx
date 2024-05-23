@@ -1,17 +1,33 @@
 import "./Navbar.css";
 import logo from "../../assets/logo-color.png";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import underline from "../../assets/angry-underline.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import mobileClose from "../../assets/menu_close.svg";
+import mobileOpen from "../../assets/menu_open.svg";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("hero");
+  const menuRef = useRef();
+
+  const closeMenu = () => {
+    menuRef.current.style.right = "-350px";
+  };
+  const openMenu = () => {
+    menuRef.current.style.right = "0";
+  };
   return (
     <div className="container">
       <AnchorLink className="anchor" href="#hero" offset={50}>
         <img src={logo} alt="" onClick={() => setMenu("hero")} />
       </AnchorLink>
-      <ul className="nav-menu">
+      <p className="mobile-open" onClick={openMenu}>
+        &#9776;
+      </p>
+      <ul className="nav-menu" ref={menuRef}>
+        <p className="mobile-close" onClick={closeMenu}>
+          &times;
+        </p>
         <li>
           <AnchorLink className="anchor" href="#hero">
             <p onClick={() => setMenu("hero")}>Home</p>
