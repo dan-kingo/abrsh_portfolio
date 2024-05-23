@@ -7,7 +7,7 @@
   flex-direction: column;
 }
 .about-section h1 {
-  margin-bottom: 2rem;
+  margin: 5rem;
   background: url("../../assets/angry-underline.svg");
   background-repeat: no-repeat;
   background-position: center;
