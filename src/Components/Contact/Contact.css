@@ -1,0 +1,100 @@
+.contact-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 170px;
+
+  flex-direction: column;
+}
+
+.contact-heading h1 {
+  margin: 5rem;
+  background: url("../../assets/angry-underline.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.main-container {
+  display: flex;
+  gap: 60px;
+  justify-content: space-between;
+}
+
+.left-div {
+  flex-basis: 540px;
+}
+
+.right-div {
+  flex-basis: 400px;
+}
+.left-div h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  background: linear-gradient(#cd850f, #e4092b);
+  background-clip: text;
+  color: transparent;
+}
+
+.left-div p {
+  font-size: 14px;
+  opacity: 0.9;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.contact-detail {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.contact-detail img {
+  width: 18px;
+}
+.contact-detail p {
+  margin-top: 0.75rem;
+}
+
+.right-div form {
+  display: flex;
+  flex-direction: column;
+}
+.right-div form label {
+  opacity: 0.8;
+  margin-block: 16px;
+}
+.right-div form input[type="email"] {
+  padding: 1rem;
+  outline: none;
+  border: 0;
+  background-color: #313331;
+  color: #fff;
+  opacity: 0.8;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+.right-div form textarea {
+  padding: 1rem;
+  outline: none;
+  border: 0;
+  background-color: #313331;
+  color: #fff;
+  opacity: 0.8;
+  border-radius: 10px;
+  font-size: 1rem;
+  resize: none;
+}
+.right-div form input[type="submit"] {
+  background: linear-gradient(#cd850f, #e4092b);
+  margin-block: 20px;
+  outline: none;
+  border: 0;
+  width: 200px;
+  border-radius: 36px;
+  padding: 14px 22px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.right-div form input[type="submit"]:hover {
+  transform: scale(1.05);
+}
