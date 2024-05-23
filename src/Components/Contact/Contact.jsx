@@ -5,7 +5,7 @@ import phonePic from "../../assets/call_icon.svg";
 import locationPic from "../../assets/location_icon.svg";
 const Contact = () => {
   return (
-    <div className="contact-section">
+    <div className="contact-section" id="contact">
       <div className="contact-heading">
         <h1>Reach Out</h1>
       </div>

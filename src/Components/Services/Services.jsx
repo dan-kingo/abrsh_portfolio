@@ -4,7 +4,7 @@ import services from "../../assets/services_data";
 
 const Services = () => {
   return (
-    <div className="service-section" id="service">
+    <div className="service-section" id="services">
       <div className="service-heading">
         <h1>My Services</h1>
       </div>

@@ -1,5 +1,7 @@
 import "./Hero.css";
 import profilePic from "../../assets/profile_img.svg";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+
 const Hero = () => {
   return (
     <div id="hero" className="hero-section">
@@ -14,7 +16,9 @@ const Hero = () => {
       </p>
 
       <div className="cta">
-        <button className="contact-me">Contact Me</button>
+        <AnchorLink href="#contact" offset={50} className="anchor">
+          <button className="contact-me">Contact Me</button>
+        </AnchorLink>
         <button className="download-cv">Download CV</button>
       </div>
     </div>
