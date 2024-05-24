@@ -17,7 +17,7 @@ const Hero = () => {
 
       <div className="cta">
         <AnchorLink href="#contact" offset={50} className="anchor">
-          <button className="contact-me">Contact Me</button>
+          <button className="contact">Contact Me</button>
         </AnchorLink>
         <button className="download-cv">Download CV</button>
       </div>

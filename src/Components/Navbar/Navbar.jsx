@@ -3,8 +3,6 @@ import logo from "../../assets/logo-color.png";
 import { useState, useRef } from "react";
 import underline from "../../assets/angry-underline.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import mobileClose from "../../assets/menu_close.svg";
-import mobileOpen from "../../assets/menu_open.svg";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("hero");

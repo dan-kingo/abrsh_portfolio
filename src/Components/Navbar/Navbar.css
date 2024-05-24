@@ -50,7 +50,7 @@ body {
 }
 @media (max-width: 768px) {
   .container {
-    margin: 16px 30px;
+    margin: 16px;
   }
   .contact-me {
     display: none;
@@ -58,7 +58,7 @@ body {
   .mobile-open {
     position: fixed;
     display: block;
-    right: 30px;
+    right: 16px;
     font-size: 2rem;
   }
   .mobile-close {
@@ -84,7 +84,7 @@ body {
   }
 
   .nav-menu li {
-    font-size: 30px;
+    font-size: 20px;
     padding-left: 100px;
     flex-direction: row;
     gap: 20px;
