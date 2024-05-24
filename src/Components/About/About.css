@@ -97,6 +97,7 @@
   text-transform: uppercase;
   opacity: 0.9;
   cursor: pointer;
+  font-size: 16px;
 }
 
 /* Media Query for Tablets */
@@ -134,7 +135,7 @@
   }
 
   .abouts img {
-    height: 200px;
+    display: none;
   }
 
   .about-section h1 {
@@ -145,5 +146,12 @@
   .about-para .p1,
   .about-para .p2 {
     font-size: 12px;
+  }
+
+  .each-achieve p {
+    font-size: 10px;
+  }
+  .each-achieve h3 {
+    font-size: 1.3rem;
   }
 }
