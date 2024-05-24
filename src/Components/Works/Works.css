@@ -3,21 +3,23 @@
   align-items: center;
   justify-content: center;
   margin: 20px 170px;
-
   flex-direction: column;
 }
+
 .work-section h1 {
   margin: 5rem;
   background: url("../../assets/angry-underline.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .work-container {
   display: grid;
   grid-template-columns: repeat(3, auto);
   gap: 60px;
   margin-bottom: 60px;
 }
+
 .work-box img {
   border-radius: 6px;
   cursor: pointer;
@@ -28,6 +30,7 @@
 .work-box {
   transition: all 0.5s;
 }
+
 .work-box:hover {
   transform: scale(1.04);
 }
@@ -42,6 +45,7 @@
   cursor: pointer;
   transition: all 0.5s;
 }
+
 .show-more-container:hover {
   gap: 20px;
   border-color: #e4092b;
@@ -49,4 +53,63 @@
 
 .show-more-container img {
   width: 20px;
+}
+
+/* Media Query for Tablets */
+@media (max-width: 768px) {
+  .work-section {
+    margin: 20px 40px;
+  }
+
+  .work-section h1 {
+    margin: 3rem;
+    background-size: contain;
+  }
+
+  .work-container {
+    grid-template-columns: repeat(2, auto);
+    gap: 30px;
+  }
+
+  .work-box img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .work-section {
+    margin: 20px 20px;
+  }
+
+  .work-section h1 {
+    margin: 2rem;
+    background-size: contain;
+  }
+
+  .work-container {
+    grid-template-columns: repeat(1, auto);
+    gap: 20px;
+  }
+
+  .work-box img {
+    width: 100%;
+    height: auto;
+  }
+
+  .show-more-container {
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 1.5rem;
+  }
+
+  .show-more-container:hover {
+    gap: 12px;
+    border-color: #e4092b;
+  }
+
+  .show-more-container img {
+    width: 20px;
+  }
 }
