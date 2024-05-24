@@ -1,5 +1,5 @@
 import "./About.css";
-import profilePic from "../../assets/about_profile.svg";
+import profilePic from "../../assets/dan (1).jpg";
 
 const About = () => {
   return (
@@ -24,7 +24,7 @@ const About = () => {
 
           <div className="about-skills">
             <div className="about-skill">
-              <p>Capcut</p> <hr style={{ width: "90%" }} />
+              <p>Capcut</p> <hr style={{ width: "80%" }} />
             </div>
             <div className="about-skill">
               <p>Motion Graphics</p> <hr style={{ width: "70%" }} />
